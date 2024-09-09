@@ -15,7 +15,7 @@ let dados = [
         titulo: "Noko Shikanoko",
         descricao: "Noko Shikanoko é uma personagem encantadora e peculiar do anime My Deer Friend Nokotan. Com sua aparência de cervo e personalidade gentil, Noko conquista o coração de todos ao seu redor.",
         imagem: "imagens/Noko-Shikanoko.png",
-        link: "https://pt.wikipedia.org/wiki/My_Deer_Friend_Nokotan",
+        link: "https://en.wikipedia.org/wiki/My_Deer_Friend_Nokotan", /* O link está em inglês porque não tinha uma página em português na wiki */
     },
     {
         titulo: "Rem",
@@ -27,7 +27,7 @@ let dados = [
         titulo: "Alya",
         descricao: "Alya, de Ayla somethimes hides her feelings in russian, é uma garota misteriosa que esconde seus sentimentos por trás de uma fachada fria. Sua personalidade complexa e seus diálogos em russo a tornam uma personagem intrigante.",
         imagem: "imagens/Alya.png",
-        link: "https://pt.wikipedia.org/wiki/Alya_Sometimes_Hides_Her_Feelings_in_Russian"
+        link: "https://en.wikipedia.org/wiki/Alya_Sometimes_Hides_Her_Feelings_in_Russian" /* O link está em inglês porque não tinha uma página em português na wiki */
     },
     {
         titulo: "Rin Nanakura",
