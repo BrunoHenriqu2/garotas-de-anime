@@ -1,0 +1,143 @@
+/* Importa a fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');
+
+/* Estiliza o corpo da página */
+body {
+    font-family: "Moderustic", sans-serif; /* Define a fonte padrão */
+    background-color: #f3f3f3;
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column;
+    align-items: center; /* Centraliza os itens verticalmente */
+    justify-content: center; /* Preenche a altura total da viewport */
+    height: 100dvh; /* Preenche a altura total da viewport (considerando o espaço que o navegador por padrão utiliza no celular, como a barra de pesquisa...) */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estiliza o título da página */
+h1 {
+    font-size: 5dvh;
+    color: rgb(207, 78, 168);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center; /* Alinha o texto ao centro */
+    letter-spacing: 0.3rem; /* Espaçamento entre as letras */
+}
+
+/* Estiliza as seções da página */
+section {
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    margin-bottom: 3rem; /* Espaçamento abaixo de cada seção */
+}
+
+/* Eslitiza os inputs dentro das seções */
+section input {
+    width: 60dvh; /* Largura dos inputs */
+    /*max-width: 60dvh;  Largura máxima dos inputs */
+    border: none; /* Remove a borda padrão (Essa borda é padrão é muito feia pelo amor de Deus, agora eu aprendi a como tirar essa porcaria) */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 1.5rem; /* Borda arredondada (opa, tá melhorando) */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
+    color: #030303;
+    font-size: 1rem; /* Tamanho da fonte */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+/* Estiliza os botões dentro das seções */
+section button {
+    width: 19dvh;
+    overflow: hidden; /* Esconde o texto que não cabe no botão */
+    text-overflow: ellipsis; /* Adiciona reticências ao texto, indicando que já mais conteúdo */
+    padding: .8rem 1.2rem; /* Espaçamento interno no botão */
+    border: none; /* Remove a borda horrorosa padrão */
+    border-radius: 1.5rem; /* Borda arredondada */
+    font-family: "Moderustic", sans-serif; /* Define a fonte padrão */
+    background-color: #a33482;
+    color: rgb(235, 233, 233);
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável (isso é interessante, eu achava que só podia ser alterado em javascript) */
+}
+
+/* Estiliza a caixa de resultados da pesquisa */
+.resultados-pesquisa {
+    color: #a33482;
+    width: 60rem; /* Largura máxima da caixa de resultados */
+    height: 46dvh; /* Altura máxima da caixa de resultados */
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: .6rem; /* Borda arredondada */
+}
+
+/* Estiliza cada item de resultado */
+.item-resultado {
+    background: #ffffff; /* Cor de fundo dos itens */
+    border-radius: .6rem; /* Borda arredondada */
+    padding: 1rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+.item-resultado h2 {
+    font-size: 1.5rem;
+    color: rgb(207, 78, 168);
+}
+
+/* Estiliza os links dentro dos itens do resultado */
+.item-resultado a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #a33482; /* Cor do texto dos links */
+}
+
+/* Estiliza os links quando são passados o mouse sobre */
+.item-resultado a:hover {
+    text-decoration: underline; /*Adiciona sublinhado ao passar o mouse sobre */
+}
+
+/* Estiliza a descrição meta dentro dos itens do resultado */
+.descricao-meta {
+    color: #45474B; /* Cor to texto */
+    margin: .5rem 0; /* Margem acima e abaixo */
+}
+
+/* Estiliza o rodapé da página */
+footer {
+    background-color: #F5F7F8; /* Cor de fundo do rodapé */
+    color: #45474B; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 0; /* Espaçamento interno */
+    width: 100%; /* Largura total da página */
+    position: absolute; /* Posiciona o rodapé */
+    bottom: 0; /* Alinha ao fundo da página */
+    font-size: 1rem; /* Tamanho da fonte */
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem; /* Tamanho da fonte em telas pequenas*/
+        letter-spacing: .1rem; /* Espaçamento entre as letras em telas pequenas */
+    }
+
+    section input {
+        width: 17rem; /* Largura total dos inputs em telas pequenas */
+    }
+
+    section button {
+        padding: .6 1rem; /* Espaçamento interno do botão em telas pequenas */
+        font-size: .9rem; /* Tamanho da fonte do botão em telas pequenas */
+    }
+
+    .resultados-pesquisa {
+        width: 90%; /* Largura da caixa de resultados em telas pequenas */
+        height: 50dvh; /* Altura da caixa de resultados em telas pequenas */
+    }
+
+    .item-resultado h2 {
+        font-size: 1.1rem; /* Tamanho da fonte dos títulos em telas pequenas */
+    }
+
+    footer {
+        font-size: .9rem; /* Tamanho da fonte do rodapé em telas pequenas */
+    }
+}
