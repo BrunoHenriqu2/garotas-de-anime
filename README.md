@@ -27,7 +27,7 @@ crio uma table do tipo array, seu valor são tables do tipo dictionary que guard
 
 | titulo | descricao | imagem | link |
 |:------:|:---------:|:------:|:----:|
-|  Alya  | Alya, de Ayla somethimes hides her feelings in russian, é uma garota misteriosa que esconde seus sentimentos por trás de uma fachada fria. Sua personalidade complexa e seus diálogos em russo a tornam uma personagem intrigante. | imagem | link
+|  Alya  | Alya, de Ayla somethimes hides her feelings in russian, é uma garota misteriosa que esconde seus sentimentos por trás de uma fachada fria. Sua personalidade complexa e seus diálogos em russo a tornam uma personagem intrigante. | "images/Alya.png" | https://en.wikipedia.org/wiki/Alya_Sometimes_Hides_Her_Feelings_in_Russian
 
 Note: O alt (descrição da imagem caso não carregue) é uma string chamada "Uma foto de" que é juntada com o título da garota.
 exemplo: "Uma foto de Alya"
