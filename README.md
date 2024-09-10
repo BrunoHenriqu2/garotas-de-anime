@@ -11,3 +11,10 @@ Cria primeiro uma base para o html, contendo:
 * *footer*
 
 ## `style.css` ##
+
+* *Eu importo primeiro uma fonte do google fonts*
+* *Estilizo o body da página*
+* *Estilizo o h1 da página*
+* *Estilizo a section da página*
+* *Estilizo a section input da página*
+* *Estilizo a section button da página*
