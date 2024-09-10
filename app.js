@@ -1,5 +1,5 @@
-function pesquisarEnvet(value) {
-    if (value.key) == "Enter" {
+function pesquisarEnver(value) {
+    if (value.key == "Enter") {
         pesquisar()
     }
 }
