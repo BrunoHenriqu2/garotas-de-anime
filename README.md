@@ -25,7 +25,7 @@ crio uma table do tipo array, seu valor são tables do tipo dictionary que guard
 * *src de uma imagem*
 * *link*
 
-| Tables | Are | Cool || col 1 is| left-aligned | $1600 |
+ 	| Tables | Are | Cool | |----------|:-------------:|------:| | col 1 is| left-aligned | $1600 |
 
 **detalhe**
 O alt (descrição da imagem caso não carregue) é uma string chamada "Uma foto de" que é juntada com o título da garota.
