@@ -18,3 +18,7 @@ Cria primeiro uma base para o html, contendo:
 * *Estilizo a section da página*
 * *Estilizo a section input da página*
 * *Estilizo a section button da página*
+* *Estilizo o footer da página*
+* *Para um site mais responsivo, eu adiciono um suporte para telas menores, pegando todos estes elementos e alterando algumas linhas, utilzando o @media*
+
+##  ##
