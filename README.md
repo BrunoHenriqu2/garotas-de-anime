@@ -25,12 +25,11 @@ crio uma table do tipo array, seu valor são tables do tipo dictionary que guard
 * *src de uma imagem*
 * *link*
 
-| testeeeeeeeeeeeeeeeeeeee | dedededede | table |
-|-------| :--: |-------|
+| titulo| dedededede | table |
+|:-------:| :--: |-------|
 | valor -1 | valor 0 | valor 1 |
 
-**detalhe**
-O alt (descrição da imagem caso não carregue) é uma string chamada "Uma foto de" que é juntada com o título da garota.
+Note: O alt (descrição da imagem caso não carregue) é uma string chamada "Uma foto de" que é juntada com o título da garota.
 exemplo: "Uma foto de Alya"
 
 ## **Sobre o projeto** ##
