@@ -1,4 +1,4 @@
-# Garotas-de-Anime #
+# garotas-de-anime #
 
 ## `index.html` ##
 
