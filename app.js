@@ -1,4 +1,4 @@
-function pesquisarEnver(value) {
+function pesquisarEnter(value) {
     if (value.key == "Enter") {
         pesquisar()
     }
