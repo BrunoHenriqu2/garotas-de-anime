@@ -26,7 +26,7 @@ crio uma table do tipo array, seu valor são tables do tipo dictionary que guard
 * *link*
 
 | teste | de | table |
-|:-----:| :: | :---: |
+|-------| -- | ----- |
 
 **detalhe**
 O alt (descrição da imagem caso não carregue) é uma string chamada "Uma foto de" que é juntada com o título da garota.
