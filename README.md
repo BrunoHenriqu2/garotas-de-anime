@@ -26,7 +26,7 @@ crio uma table do tipo array, seu valor são tables do tipo dictionary que guard
 * *link*
 
 | teste | de | table |
-|-------| :--: | -----: |
+|-------| :--: |-------|
 | valor -1 | valor 0 | valor 1 |
 
 **detalhe**
