@@ -1,6 +1,7 @@
 # GAROTAS-DE-ANIME #
 
-**index.html**
+**index.html**  
+
 Cria uma base para o html, contendo:
 * *header* 
 * *main*
