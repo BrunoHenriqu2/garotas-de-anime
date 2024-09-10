@@ -36,7 +36,7 @@ exemplo: "Uma foto de Alya"
 ## `app.js` ##
 Há duas funções no script, ambas são semelhantes. 
 
-`function pesquisarEnter(value) `
+### `function pesquisarEnter(value) ` ###
 
 verifica se o usuário pressionou a tecla enter enquanto está focado em `<input>` e então chama `function pesquisar()`
 
