@@ -1,3 +1,9 @@
+function pesquisarEnvet(value) {
+    if (value.key) == "Enter" {
+        pesquisar()
+    }
+}
+
 function pesquisar() {
     let section = document.querySelector("section#resultados-pesquisa")
     let campoPesquisa = document.querySelector("input#campo-pesquisa")
