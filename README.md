@@ -37,7 +37,6 @@ exemplo: "Uma foto de Alya"
 Há duas funções no script, ambas são semelhantes. 
 
 ##### `function pesquisarEnter(value) ` #####
-
 Verifica se o usuário pressionou a tecla enter enquanto está focado em `<input>` e então chama `function pesquisar()`
 
 ## **Sobre o projeto** ##
