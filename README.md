@@ -6,6 +6,7 @@ Eu fiz este projeto em uma imersão da Alura que eles fizeram na primeira semana
 ## **index.html** ##
 
 Cria primeiro uma base para o html, contendo:
-* *header* 
+* *header*
+teste
 * *main*
 * *footer*
