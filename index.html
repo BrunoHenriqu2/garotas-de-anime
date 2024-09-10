@@ -12,7 +12,7 @@
     </header>
     <main>
         <section> 
-            <input type="text" name="" id="campo-pesquisa" placeholder="Digite o nome ou obra">
+            <input onkeyup="pesquisarEnter(event)" type="text" name="" id="campo-pesquisa" placeholder="Digite o nome ou obra">
             <button onclick="pesquisar()">Buscar</button>
         </section>
         <section class="resultados-pesquisa" id="resultados-pesquisa">
