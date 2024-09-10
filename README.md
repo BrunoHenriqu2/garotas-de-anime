@@ -37,7 +37,8 @@ exemplo: "Uma foto de Alya"
 Há duas funções no script, ambas são semelhantes. 
 
 `function pesquisarEnter(value) `
-verifica se o usuário pressionou a tecla enter enquanto está focado no `<input>` e então chama a `function pesquisar()`
+
+verifica se o usuário pressionou a tecla enter enquanto está focado em `<input>` e então chama `function pesquisar()`
 
 ## **Sobre o projeto** ##
 Eu fiz este projeto em uma imersão da Alura que eles fizeram na primeira semana de setembro (2024), no começo eu admito que eu fiquei com preguiça de fazer o curso, mas eu decidi que faria (essa seria a melhor escolha que eu teria feito), porque eu pensei na hora em colocar uma área do conhecimento que eu gostasse, eu fui até bem específico colocando garotas de anime, mas é isso que eu gosto! Ele é até bem simples se for analisar, ainda assim foi uma **especiência muito legal**, eu espero fazer mais projetos em front-end ou envolvendo sites futuramente!
