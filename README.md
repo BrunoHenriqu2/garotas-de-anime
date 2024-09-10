@@ -7,6 +7,7 @@ Eu fiz este projeto em uma imersão da Alura que eles fizeram na primeira semana
 
 Cria primeiro uma base para o html, contendo:
 * *header*
-teste
 * *main*
 * *footer*
+
+## `style.css` ##
