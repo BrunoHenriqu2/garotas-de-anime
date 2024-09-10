@@ -2,6 +2,6 @@
 
 **index.html**
 Cria uma base para o html, contendo:
-* HEADER 
-* MAIN
-* FOOTER
+* #header 
+* #main
+* #footer
