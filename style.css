@@ -86,6 +86,9 @@ section button {
 
 /* Estiliza os links dentro dos itens do resultado */
 .item-resultado a {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem 0;
     text-decoration: none; /* Remove o sublinhado padrão dos links */
     color: #a33482; /* Cor do texto dos links */
 }
