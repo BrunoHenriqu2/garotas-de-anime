@@ -1,7 +1,4 @@
-# garotas-de-anime-2 #
-
-### Eu gostei tanto desse projeto, que eu decidi fazer uma segunda versão! ###
-Dessa vez, os dados ficam armazenados direto no servidor! Além disso, o 
+# garotas-de-anime #
 
 ## `index.html` ##
 
@@ -21,8 +18,8 @@ Cria primeiro uma base para o html, contendo:
 * *Estilizo o footer da página*
 * *Para um site mais responsivo, eu adiciono um suporte para telas menores, pegando todos estes elementos e alterando algumas linhas, utilizando o @media*
 
-## `dados.json` ##
-É um arquivo.json, seu valor são tables do tipo dictionary que guardam informações sobre as meninas, sendo elas:
+## `dados.js` ##
+Crio uma table do tipo array `let dados = []`, seu valor são tables do tipo dictionary que guardam informações sobre as meninas, sendo elas:
 * *título (nome)*
 * *descrição*
 * *src de uma imagem*
@@ -31,16 +28,19 @@ Cria primeiro uma base para o html, contendo:
 **Ela se parece com isto:**
 | titulo | descricao | imagem | link |
 |:------:|:---------:|:------:|:----:|
-| "Alya" | "Alya, de Ayla somethimes hides her feelings in russian, é uma garota misteriosa que esconde seus sentimentos por trás de uma fachada fria. Sua personalidade complexa e seus diálogos em russo a tornam uma personagem intrigante." | "img/Alya.png" | "https://en.wikipedia.org/wiki/Alya_Sometimes_Hides_Her_Feelings_in_Russian"
+| "Alya" | "Alya, de Ayla somethimes hides her feelings in russian, é uma garota misteriosa que esconde seus sentimentos por trás de uma fachada fria. Sua personalidade complexa e seus diálogos em russo a tornam uma personagem intrigante." | "images/Alya.png" | "https://en.wikipedia.org/wiki/Alya_Sometimes_Hides_Her_Feelings_in_Russian"
 
 **Nota:** O alt (descrição da imagem caso não carregue) é uma string chamada "Uma foto de" que é juntada com o título da garota.
-exemplo: "Uma foto de Alya" ou sendo mais preciso " alt='Uma foto de ${dado.titulo}' "
+exemplo: "Uma foto de Alya"
 
 ## `app.js` ##
 Há duas funções no script, ambas são semelhantes. 
 
-### `function getData(clientInput)` ###
-Pesquisa os dados na minha super database e retorna-os!
+#### `function pesquisarEnter(value)` ####
+Verifica se o usuário pressionou a tecla enter enquanto está focado em `<input type="text">` e então chama `function pesquisar()`
 
-### `function browse()` ###
-Apenas chama `let resultado = function getData(clientInput)` e mostra o resultado da pesquisa no HTML.
+#### `function pesquisar()` ####
+Pesquisa se o valor colocado em `campo-pesquisa` coincide com algum dado guardado em nosso script `dados.js`, e então cria uma estrutura do resultado no html (caso `campo-pesquisa.value` seja uma string vazia, ou essa string não coincide com algum dado em `let = dados []`, é mostrado um aviso para o usuário)
+
+## **Sobre o projeto** ##
+Eu fiz este projeto em uma imersão da Alura que eles fizeram na primeira semana de setembro (2024), no começo eu admito que eu fiquei com preguiça de fazer o curso, mas eu decidi que faria (essa seria a melhor escolha que eu teria feito), porque eu pensei na hora em colocar uma área do conhecimento que eu gostasse, eu fui até bem específico colocando garotas de anime, mas é isso que eu gosto! Ele é até bem simples se for analisar, ainda assim foi uma **especiência muito legal**, eu espero fazer mais projetos em front-end ou envolvendo sites futuramente!
